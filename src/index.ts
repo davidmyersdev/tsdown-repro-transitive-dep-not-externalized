@@ -1,5 +1,5 @@
-export const foo = 'foo'
+import { defineNuxtModule } from '@nuxt/kit'
 
-export function fn(): void {
-  return
-}
+export default defineNuxtModule({
+  setup() {},
+})
